@@ -111,7 +111,7 @@ const TableComponent = () => {
 			<Divider />
 			<Stack py={'1rem'} px={'15px'}><SearchBar search={search} setSearch={setSearch} /></Stack>
 			<Table variant='simple'>
-				<TableCaption>Student Directory by Nikhil Upadhyay</TableCaption>
+				<TableCaption>Student Directory by Rishu Shrivastava</TableCaption>
 				<Thead h={'4rem'} bgColor={'gray.100'}>
 					<Tr>
 						<Th>Student Name  <UpDownIcon cursor={'pointer'} onClick={handleSorting} /></Th>
